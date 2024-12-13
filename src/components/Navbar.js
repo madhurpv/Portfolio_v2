@@ -1,6 +1,6 @@
 // src/Navbar.js
 import React, { Component } from 'react';
-import './Styling/Navbar.css'; // CSS file for styling the navbar
+import './Styling/Navbar.css';
 import { Router } from 'react-router-dom';
 
 class Navbar extends Component {
@@ -29,8 +29,10 @@ class Navbar extends Component {
         <div className={`menu ${this.state.menuOpen ? 'active' : ''}`}>
             <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/projects">Projects</a></li>
             <li><a href="/resume">Resume</a></li>
+            <li><a href="/hobbies">Hobbies</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact">Contact</a></li>
             </ul>
