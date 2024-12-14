@@ -1,0 +1,70 @@
+.square-card-project {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width for the square card size */
+  margin: 10px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(148, 148, 148, 0.2);
+  text-align: left;
+  padding: 0px;
+  transition: all 0.6s ease;
+}
+
+.square-card-project:hover {
+  background-color: rgb(57, 129, 132);
+  box-shadow: 0 6px 16px rgba(148, 148, 148, 0.3);
+}
+
+.square-card-image-project {
+  width: 100%; /* Ensure image takes up the full width of the parent */
+  height: 100%; /* Ensure image takes up the full height of the parent */
+  object-fit: cover; /* Ensures the image covers the square area without distortion, cropping equally */
+  border-radius: 8px 8px 0 0; /* Optional: keep the top corners rounded */
+  display: block; /* Removes any space below the image */
+  aspect-ratio: 1; /* Ensure the image container is always square */
+}
+
+.square-card-title-project {
+  margin: 10px 0px 0px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: rgb(235, 235, 235);
+  padding: 0 10px;
+  text-decoration: none; /* Make sure title doesn't get underlined */
+}
+
+.square-card-type-project {
+  margin: 10px 0;
+  font-size: 1.2em;
+  padding: 0 10px;
+  text-decoration: none; /* Make sure title doesn't get underlined */
+}
+
+.square-card-description-project {
+  font-size: 1rem;
+  color: #ababab;
+  padding: 0 10px 20px;
+}
+
+/* Styles for the logos */
+.square-card-logos-project {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1px;
+  padding: 0 10px;
+}
+
+.square-card-logo-project {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the logo circular */
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  object-fit: cover; /* Ensures the logo is contained within the circle */
+  transition: transform 0.3s ease;
+}
+
+.square-card-logo-project:hover {
+  transform: scale(1.1); /* Slightly enlarges the logo when hovered */
+}

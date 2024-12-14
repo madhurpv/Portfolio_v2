@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import Title from '../components/Title';
 import Centre from '../components/Centre';
-import CardContainer from '../components/CardContainer';
+import CardContainerBlog from '../components/CardContainerBlog';
 
 const cardsData = [
   {
@@ -64,7 +64,7 @@ class Blog extends Component {
       <div className="centre">
         <Title title="Blog" />
         <p>This is My Blog</p>
-        <CardContainer cards={cardsData} />
+        <CardContainerBlog cards={cardsData} />
       </div>
     );
   }

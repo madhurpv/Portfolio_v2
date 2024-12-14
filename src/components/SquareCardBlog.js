@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Styling/SquareCard.css'; 
+import './Styling/SquareCardBlog.css'; 
 
-class SquareCard extends Component {
+class SquareCardBlog extends Component {
   render() {
     const { image, title, description, blogtype, typecolour } = this.props;
 
@@ -16,4 +16,4 @@ class SquareCard extends Component {
   }
 }
 
-export default SquareCard;
+export default SquareCardBlog;

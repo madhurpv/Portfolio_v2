@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Styling/CardContainer.css'; 
-import SquareCard from './SquareCard';
+import './Styling/CardContainerBlog.css'; 
+import SquareCardBlog from './SquareCardBlog';
 
-class CardContainer extends Component {
+class CardContainerBlog extends Component {
   render() {
     const { cards } = this.props;
 
@@ -10,7 +10,7 @@ class CardContainer extends Component {
       <div className="card-container">
         {cards.map((card, index) => (
           <a href={card.link} style={{textDecoration: "none"}}>
-            <SquareCard 
+            <SquareCardBlog 
               key={index}
               image={card.image}
               title={card.title}
@@ -26,4 +26,4 @@ class CardContainer extends Component {
   }
 }
 
-export default CardContainer;
+export default CardContainerBlog;
