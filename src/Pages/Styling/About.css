@@ -7,7 +7,7 @@
 }
 
 
-.rounded-rectangle {
+.rounded-rectangle-about {
     width: 90%;
     margin: 20px auto;
     padding: 20px;
@@ -19,7 +19,7 @@
     overflow-y: auto;
 }
 
-.rounded-rectangle .content {
+.rounded-rectangle-about .content {
     color: white;
     text-align: left;
     z-index: 10; /* Ensure content appears on top of background */

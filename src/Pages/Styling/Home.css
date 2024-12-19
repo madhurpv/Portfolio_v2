@@ -7,7 +7,7 @@
 }
 
 
-.rounded-rectangle {
+.rounded-rectangle-blur {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
@@ -15,7 +15,44 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-    transition: background-image 1s ease-in-out;
+    -webkit-transition : -webkit-filter all 0.2s ease-in-out;
+    transition: filter 0.2s ease-in-out, background-image 1s ease-in-out;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rounded-rectangle-blur:hover {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    -webkit-transition : -webkit-filter all 0.2s ease-in-out;
+    transition: filter 0.2s ease-in-out, background-image 1s ease-in-out;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.rounded-rectangle {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background: none;
+    transform: translate(0%, -100%);
+    pointer-events: none;
 }
 
 .rounded-rectangle .content {

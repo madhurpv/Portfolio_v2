@@ -4,6 +4,12 @@ import Title from '../components/Title';
 import Centre from '../components/Centre';
 import './Styling/Home.css';
 
+import image1 from '../components/assets/home_images/Image1.jpg'
+import image2 from '../components/assets/home_images/Image2.jpg'
+import image3 from '../components/assets/home_images/Image3.jpg'
+import image4 from '../components/assets/home_images/Image4.jpg'
+import image5 from '../components/assets/home_images/Image5.jpg'
+
 class Home extends Component {
 
   constructor(props) {
@@ -11,16 +17,23 @@ class Home extends Component {
     this.state = {
       currentImageIndex: 0,
       images: [
-        'https://via.placeholder.com/1200x500?text=Image+1', // Example image 1
-        'https://via.placeholder.com/1200x500?text=Image+2', // Example image 2
-        'https://via.placeholder.com/1200x500?text=Image+3', // Example image 3
-        'https://via.placeholder.com/1200x500?text=Image+4', // Example image 4
-        'https://via.placeholder.com/1200x500?text=Image+5', // Example image 5
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,        
       ],
     };
   }
 
   componentDidMount() {
+    const imagesPreload = [image1, image2, image3, image4, image5];
+    imagesPreload.forEach((image) => {
+        const newImage = new Image();
+        newImage.src = image;
+        window[image] = newImage;
+    });
+    
     this.imageInterval = setInterval(() => {
       this.setState((prevState) => ({
         currentImageIndex: (prevState.currentImageIndex + 1) % prevState.images.length,
@@ -42,12 +55,16 @@ class Home extends Component {
         <Title title="Welcome" />
         <br />
 
-        {/* Rounded Rectangle with Background Image */}
-        <div className="rounded-rectangle"
+        <div className="rounded-rectangle-blur"
           style={{
             backgroundImage: `url(${currentImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            alignContent:"center", minHeight: "80%"
+          }}
+        ></div>
+        <div className="rounded-rectangle"
+          style={{
             alignContent:"center", minHeight: "80%"
           }}
         >
