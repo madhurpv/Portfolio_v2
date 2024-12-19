@@ -28,13 +28,13 @@ class Navbar extends Component {
         {/* Menu */}
         <div className={`menu ${this.state.menuOpen ? 'active' : ''}`}>
             <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/hobbies">Hobbies</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/portfolio/">Home</a></li>
+            <li><a href="/portfolio/#/about">About Me</a></li>
+            <li><a href="/portfolio/#/projects">Projects</a></li>
+            <li><a href="/portfolio/#/resume">Resume</a></li>
+            <li><a href="/portfolio/#/hobbies">Hobbies</a></li>
+            <li><a href="/portfolio/#/blog">Blog</a></li>
+            <li><a href="/portfolio/#/contact">Contact</a></li>
             </ul>
         </div>
         </div>

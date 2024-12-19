@@ -14,7 +14,7 @@ import Blog1 from './Pages/Blog/Blog1';
 
 
 import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import React, {Component} from 'react';
 import './App.css';
 
@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <HashRouter>
           {/* Navbar component for top navigation */}
           <Navbar />
 
@@ -46,7 +46,7 @@ class App extends Component {
             <Right />
 
           </div>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }

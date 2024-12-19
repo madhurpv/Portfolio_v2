@@ -10,28 +10,28 @@ const cardsData = [
     title: 'Card 1',
     blogtype: 'Travel',
     description: 'This is the first card description.',
-    link: '/blog1'
+    link: '/#/blog1'
   },
   {
     image: 'https://via.placeholder.com/300',
     title: 'Card 2',
     blogtype: 'Travel',
     description: 'This is the second card description.',
-    link: '/blog1'
+    link: '/#/blog1'
   },
   {
     image: 'https://via.placeholder.com/300',
     title: 'Card 3',
     blogtype: 'Tech',
     description: 'This is the third card description.',
-    link: '/blog1'
+    link: '/#/blog1'
   },
   {
     image: 'https://via.placeholder.com/300',
     title: 'Card 4',
     blogtype: 'Travel',
     description: 'This is the fourth card description.',
-    link: '/blog1'
+    link: '/#/blog1'
   }
 ];
 
