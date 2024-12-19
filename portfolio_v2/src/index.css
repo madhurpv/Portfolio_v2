@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout container */
+.layout-container {
+  padding-top: 60px; /* Ensure there's enough space below the navbar */
+  display: flex; /* Ensures the children are in a row by default */
+  flex-wrap: wrap; /* Allows the children to wrap onto the next line if needed */
+  /*gap: 10px; /* Space between the sections */
+  position: relative;
+}
+
+/* Left Section */
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  flex: 0 0 20%; /* Set the left section to 20% of the width */
+  position: sticky;
+  top: 60px; /* Adjust to the navbar height */
+  left: 0;
+  height: 100vh /* Full viewport height */
+}
+
+
+/* Centre Section */
+.centre {
+  background-color: #1b1b1b;
+  padding: 30px;
+  flex: 0 0 60%; /* Set the centre section to 60% of the width */
+  overflow-y: auto;
+}
+
+/* Right Section */
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  flex: 0 0 20%; /* Set the right section to 20% of the width */
+  position: sticky;
+  top: 60px; /* Adjust to the navbar height */
+  height: 100vh /* Full viewport height */
+}
+
+/* Media Query for screen widths of 800px or smaller */
+@media screen and (max-width: 1400px) {
+  .left,
+  .right {
+    height: 80px; /* Make all sections full width when the screen is smaller than 800px */
+    position:inherit;
+    top: 0px;
+  }
+
+  .left,
+  .centre,
+  .right {
+    flex: 0 0 100%; /* Make all sections full width when the screen is smaller than 800px */
+  }
+
+  .centre{
+    min-height: 70vh;
+  }
+}
+
+.merienda-400 {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5e5;
+}
+
+.merienda-600 {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #e5e5e5;
+}
+
+
+.merienda-600-anim {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #e5e5e5;
+  transition: font-weight 1s ease-in-out; /* Transition to and from weight */
+}
+
+.animate-weight {
+  animation: weightChange 1s forwards;
+}
+
+/* Keyframe animation for font-weight change */
+@keyframes weightChange {
+  0% {
+    font-weight: 300;
+  }
+  50% {
+    font-weight: 800;
+  }
+  100% {
+    font-weight: 600;
+  }
+}
+
+
+.noto-sans-300 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #c0c0c0;
+}
+

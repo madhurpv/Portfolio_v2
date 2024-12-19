@@ -1,0 +1,43 @@
+.square-card {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width for the square card size */
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 0px;
+}
+
+.square-card-image {
+  width: 100%; /* Ensure image takes up the full width of the parent */
+  height: 100%; /* Ensure image takes up the full height of the parent */
+  object-fit: cover; /* Ensures the image covers the square area without distortion, cropping equally */
+  border-radius: 8px 8px 0 0; /* Optional: keep the top corners rounded */
+  display: block; /* Removes any space below the image */
+  aspect-ratio: 1; /* Ensure the image container is always square */
+}
+
+
+.square-card-title {
+  margin: 10px 0px 0px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: black;
+  padding: 0 10px;
+  text-decoration: none; /* Make sure title doesn't get underlined */
+}
+
+/* Title style: ensure no underline */
+.square-card-type {
+  margin: 10px 0;
+  font-size: 1.2em;
+  padding: 0 10px;
+  text-decoration: none; /* Make sure title doesn't get underlined */
+}
+
+.square-card-description {
+  font-size: 1rem;
+  color: #555;
+  padding: 0 10px 20px;
+}
