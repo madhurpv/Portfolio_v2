@@ -47,6 +47,7 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
     color: #e5e5e5;
+    overflow-y: auto;
   }
   
   .menu ul {
@@ -112,9 +113,10 @@
     }
 
     .menu ul {
-        flex-direction: column;
-        list-style: none;
-        padding: 0;
+      flex-direction: column;
+      list-style: none;
+      padding: 0;
+      gap: 0px;
     }
 
     .menu li {

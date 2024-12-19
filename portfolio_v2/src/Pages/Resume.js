@@ -25,10 +25,12 @@ class Resume extends Component {
         <p className="noto-sans-300">This is My Resume</p>
         <br /><br /><br />
 
-        <div className="pdf-container" style={{maxWidth:"80vw !important"}}>
-          <Document file={resume_pdf} style={{maxWidth:"80vw !important"}}>
-            <Page pageNumber={1} />
-          </Document>
+        <div className="pdf-container" style={{maxWidth:"80vw !important", overflow:"scroll", overflowX:"auto"}}>
+          <div className="pdf-container-actual" style={{}}>
+            <Document file={resume_pdf} style={{maxWidth:"80vw !important"}}>
+              <Page pageNumber={1} />
+            </Document>
+          </div>
         </div>
 
         <a href={resume_pdf} style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer">

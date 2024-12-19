@@ -33,7 +33,7 @@ class Home extends Component {
         newImage.src = image;
         window[image] = newImage;
     });
-    
+
     this.imageInterval = setInterval(() => {
       this.setState((prevState) => ({
         currentImageIndex: (prevState.currentImageIndex + 1) % prevState.images.length,
@@ -60,18 +60,18 @@ class Home extends Component {
             backgroundImage: `url(${currentImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            alignContent:"center", minHeight: "80%"
+            alignContent:"center", minHeight: "90%"
           }}
         ></div>
         <div className="rounded-rectangle"
           style={{
-            alignContent:"center", minHeight: "80%"
+            alignContent:"center", minHeight: "90%"
           }}
         >
           <div className="content">
             {/* Add any content inside this box */}
             <p className="noto-sans-700-home" style={{fontSize: "200%"}}>Hi There!</p><br/>
-            <p className="noto-sans-300-home" style={{fontSize: "120%"}}>I am <b>Madhur Vaidya</b>. I am a student at the Vishwakarma Institute of Technology, Pune, learning Computer Engineering.</p>
+            <p className="noto-sans-300-home" style={{fontSize: "120%"}}>I am <b>Madhur Vaidya</b>. I am a student at the Vishwakarma Institute of Technology, Pune, learning Computer Engineering.<br/></p>
           </div>
         </div>
 

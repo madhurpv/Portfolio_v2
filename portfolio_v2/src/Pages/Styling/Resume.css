@@ -21,6 +21,14 @@
   margin: 40px auto; /* Center the container with some margin */
 }
 
+@media screen and (max-width: 650px) {
+  .pdf-container {
+    justify-content: left;
+  }
+}
+
+
+
 /* Styles for the iframe */
 .pdf-iframe {
   border: none; /* Remove iframe border */
