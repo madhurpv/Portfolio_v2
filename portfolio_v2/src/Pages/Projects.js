@@ -5,6 +5,13 @@ import Centre from '../components/Centre';
 import './Styling/Home.css';
 import CardContainerProjects from '../components/CardContainerProjects';
 
+import PPT from "../components/assets/Projects/PPT.png"
+import GithubLogo from "../components/assets/Projects/GitHub_Invertocat_Light.png"
+
+import ProjectFAST from "../components/assets/Projects/Images/ProjectFAST.png"
+
+import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
+
 
 const cardsData = [
   {
@@ -23,18 +30,18 @@ const cardsData = [
     ]
   },
   {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/375px-Flower_poster_2.jpg',
-    title: 'Card 2',
-    blogtype: 'Travel',
-    description: 'This is the second card description.',
+    image: ProjectFAST,
+    title: 'FAST - FAST Attendance System Technology',
+    blogtype: 'Android and Windows app',
+    description: 'Created a proxy-proof attendance-taking system for colleges and proffesional conferences and seminars. Won second Prize in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
     link: '/blog1',
     logos: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPT, 
+      GithubLogo
     ],
     logolinks: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPTFAST,
+      "https://github.com/MrPopatRao-DoingCoding/AttendancewithPopatrao"
     ]
   },
   {

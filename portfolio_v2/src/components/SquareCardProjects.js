@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Styling/SquareCardProjects.css'; 
+import '../Pages/Styling/About.css'; 
+import parse  from 'html-react-parser';
 
 class SquareCardProjects extends Component {
   render() {
@@ -10,7 +12,7 @@ class SquareCardProjects extends Component {
         <img src={image} alt={title} className="square-card-image-project" />
         <h3 className="square-card-title-project">{title}</h3>
         <h3 className="square-card-type-project" style={{color: typecolour}}>{blogtype}</h3>
-        <p className="square-card-description-project">{description}</p>
+        <p className="square-card-description-project">{parse(description)}</p>
 
         <div className="square-card-logos-project">
           {logos && logos.map((logo, index) => (

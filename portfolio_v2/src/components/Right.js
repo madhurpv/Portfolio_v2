@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-//import './Right.css'; // Optional: If you want to style this separately
+import rotating_img from "../components/assets/Curve1output_slow.gif"
 
 class Right extends Component {
   render() {
     return (
       <div className="right">
-        <p>Right Content</p>
+        <img src={rotating_img} style={{height:"100%", alignContent:"center", justifyContent:"center", maxHeight:"100px"}}/>
       </div>
     );
   }
