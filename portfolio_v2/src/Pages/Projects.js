@@ -7,33 +7,24 @@ import CardContainerProjects from '../components/CardContainerProjects';
 
 import PPT from "../components/assets/Projects/PPT.png"
 import GithubLogo from "../components/assets/Projects/GitHub_Invertocat_Light.png"
+import YouTubeLogo from "../components/assets/Projects/yt_logo_mono_dark.png"
 
-import ProjectFAST from "../components/assets/Projects/Images/ProjectFAST.png"
+import ProjectFASTImg from "../components/assets/Projects/Images/ProjectFAST.png"
+import ProjectMarathiSentimentImg from "../components/assets/Projects/Images/ProjectMarathiSentiment.png"
+import ProjectBlockchainImg from "../components/assets/Projects/Images/ProjectBlockchain.png"
+import ProjectGaleShapelyImg from "../components/assets/Projects/Images/ProjectGaleShapely.png"
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
+import PPTPetiChain from "../components/assets/Projects/Docs/PPTPetiChain.pdf"
+import PPTGaleShapely from "../components/assets/Projects/Docs/PPTGaleShapely.pdf"
 
 
 const cardsData = [
   {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png',
-    title: 'Card 1',
-    blogtype: 'Travel',
-    description: 'This is the first project. I have done a lot of things in this project, including a lot of things too! Not just that, but a few other things too were done.',
-    link: '/blog1',
-    logos: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
-    ],
-    logolinks: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
-    ]
-  },
-  {
-    image: ProjectFAST,
+    image: ProjectFASTImg,
     title: 'FAST - FAST Attendance System Technology',
-    blogtype: 'Android and Windows app',
-    description: 'Created a proxy-proof attendance-taking system for colleges and proffesional conferences and seminars. Won second Prize in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
+    blogtype: 'Android and Windows Application',
+    description: 'Created a proxy-proof attendance-taking system for colleges and professional conferences and seminars, based on the technology of Dynamic QR Codes. Won Second Prize in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
     link: '/blog1',
     logos: [
       PPT, 
@@ -45,48 +36,40 @@ const cardsData = [
     ]
   },
   {
-    image: 'https://via.placeholder.com/300',
-    title: 'Card 3',
-    blogtype: 'Tech',
-    description: 'This is the third card description.',
+    image: ProjectMarathiSentimentImg,
+    title: 'Sentiment Analysis of Marathi Texts using Deep Learning Models',
+    blogtype: 'Deep Learning',
+    description: 'Fine-tuned several large models such as BiLSTM and BERT for the Marathi language to predict 3-class sentiments of marathi sentences (Positive, Neutral and Negative).',
+    link: '/blog1',
+    logos: [],
+    logolinks: []
+  },
+  {
+    image: ProjectBlockchainImg,
+    title: 'Peti-Chain - Blockchain based petition filing system',
+    blogtype: 'Blockchain network and Website',
+    description: 'Created a Smart-Contracts based blockchain application for Judicial Petition-filing, on Ethereum Network',
     link: '/blog1',
     logos: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/375px-Flower_poster_2.jpg', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPT,
+      YouTubeLogo
     ],
     logolinks: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPTPetiChain,
+      "https://youtu.be/dES7PGgBuUQ"
     ]
   },
   {
-    image: 'https://via.placeholder.com/300',
-    title: 'Card 4',
-    blogtype: 'Travel',
-    description: 'This is the fourth card description.',
+    image: ProjectGaleShapelyImg,
+    title: 'Multi-Staged Gale-Shapely : Guide & Group Matching Problem',
+    blogtype: 'Theoretical CS',
+    description: 'Proposal & Implementation of Multi-Staged Gale & Shapely algorithm for guide and group matching. Both side preferences used and a Complete & Stable Matching is obtained after several stages.',
     link: '/blog1',
     logos: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPT,
     ],
     logolinks: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
-    ]
-  },
-  {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png',
-    title: 'Card 5',
-    blogtype: 'Timepass',
-    description: 'This is the last project. I have done a lot of things in this project, including a lot of things too! Not just that, but a few other things too were done.',
-    link: '/blog1',
-    logos: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
-    ],
-    logolinks: [
-      'https://vit.edu/wp-content/uploads/2024/03/image02.webp', 
-      'https://www.vit.edu/wp-content/uploads/2024/09/Frame-148321-1.webp'
+      PPTGaleShapely,
     ]
   }
 ];
