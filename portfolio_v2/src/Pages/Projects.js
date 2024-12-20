@@ -13,10 +13,12 @@ import ProjectFASTImg from "../components/assets/Projects/Images/ProjectFAST.png
 import ProjectMarathiSentimentImg from "../components/assets/Projects/Images/ProjectMarathiSentiment.png"
 import ProjectBlockchainImg from "../components/assets/Projects/Images/ProjectBlockchain.png"
 import ProjectGaleShapelyImg from "../components/assets/Projects/Images/ProjectGaleShapely.png"
+import ProjectAssemblyImg from "../components/assets/Projects/Images/ProjectAssembly.png"
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
 import PPTPetiChain from "../components/assets/Projects/Docs/PPTPetiChain.pdf"
 import PPTGaleShapely from "../components/assets/Projects/Docs/PPTGaleShapely.pdf"
+import PPTAssembly from "../components/assets/Projects/Docs/PPTAssembly.pdf"
 
 
 const cardsData = [
@@ -70,6 +72,20 @@ const cardsData = [
     ],
     logolinks: [
       PPTGaleShapely,
+    ]
+  }
+  ,
+  {
+    image: ProjectAssemblyImg,
+    title: 'KNN algorithm in Assembly Language (x86-64)',
+    blogtype: 'x86-64',
+    description: 'Written KNN Algorithm in x86-64 Assembly Language with Manhattan Distance on Variable sized dataset for classification purpose. Includes reading and parsing a CSV file of dynamic size and write-back in CSV. Tested for an Income Prediction task for 2-class classification.',
+    link: '/blog1',
+    logos: [
+      PPT,
+    ],
+    logolinks: [
+      PPTAssembly,
     ]
   }
 ];
