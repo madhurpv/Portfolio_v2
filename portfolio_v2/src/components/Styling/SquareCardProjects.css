@@ -68,3 +68,32 @@
 .square-card-logo-project:hover {
   transform: scale(1.1); /* Slightly enlarges the logo when hovered */
 }
+
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-yellow-text {
+  background: linear-gradient(
+    to right,
+    #ff621f 10%,
+    #ffa91f 20%,
+    #e9fa00 40%,
+    #e9fa00 60%,
+    #ffa91f 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+
+

@@ -14,19 +14,24 @@ import ProjectMarathiSentimentImg from "../components/assets/Projects/Images/Pro
 import ProjectBlockchainImg from "../components/assets/Projects/Images/ProjectBlockchain.png"
 import ProjectGaleShapelyImg from "../components/assets/Projects/Images/ProjectGaleShapely.png"
 import ProjectAssemblyImg from "../components/assets/Projects/Images/ProjectAssembly.png"
+import ProjectDigitalTwinImg from "../components/assets/Projects/Images/ProjectDigitalTwin.png"
+import ProjectMarathiGANImg from "../components/assets/Projects/Images/ProjectMarathiGAN.png"
+
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
 import PPTPetiChain from "../components/assets/Projects/Docs/PPTPetiChain.pdf"
 import PPTGaleShapely from "../components/assets/Projects/Docs/PPTGaleShapely.pdf"
 import PPTAssembly from "../components/assets/Projects/Docs/PPTAssembly.pdf"
+import PPTDigitalTwin from "../components/assets/Projects/Docs/PPTDigitalTwin.pdf"
+import PPTMarathiGAN from "../components/assets/Projects/Docs/PPTMarathiGAN.pdf"
 
 
 const cardsData = [
   {
     image: ProjectFASTImg,
     title: 'FAST - FAST Attendance System Technology',
-    blogtype: 'Android and Windows Application',
-    description: 'Created a proxy-proof attendance-taking system for colleges and professional conferences and seminars, based on the technology of Dynamic QR Codes. Won Second Prize in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
+    blogtype: 'Android Application (Java), Windows Application (Python)',
+    description: 'Created a proxy-proof attendance-taking system for colleges and professional conferences and seminars, based on the technology of Dynamic QR Codes. Won <span className="gradient-yellow-text">Second Prize</span> in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
     link: '/blog1',
     logos: [
       PPT, 
@@ -73,8 +78,7 @@ const cardsData = [
     logolinks: [
       PPTGaleShapely,
     ]
-  }
-  ,
+  },
   {
     image: ProjectAssemblyImg,
     title: 'KNN algorithm in Assembly Language (x86-64)',
@@ -86,6 +90,32 @@ const cardsData = [
     ],
     logolinks: [
       PPTAssembly,
+    ]
+  },
+  {
+    image: ProjectDigitalTwinImg,
+    title: 'Windmill Digital Twin using OpenGL in C',
+    blogtype: 'C, OpenGL',
+    description: 'Built an OpenGL Scene using in C from scratch. Applied concepts like Camera Models, Lighting, Transformations, Geometrical Models and variable Frame-rate. Used various data-structures and algorithms for optimal results.',
+    link: '/blog1',
+    logos: [
+      PPT,
+    ],
+    logolinks: [
+      PPTDigitalTwin,
+    ]
+  },
+  {
+    image: ProjectMarathiGANImg,
+    title: 'Comprehensive Devanagari Digits Dataset',
+    blogtype: 'ML Model, Android Application',
+    description: 'Created GAN and CGAN models for generating synthetic large-scale datasets of Devanagari Digits. Also created an Android application for collecting the initial input images. Won <span className="gradient-yellow-text">First Prize</span> in <a href="https://web.archive.org/web/20241221111324/https://pictinc.org/static/media/Impetus_Winners.73299dd43bda229b3a62.pdf" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2024 in ML domain',
+    link: '/blog1',
+    logos: [
+      PPT,
+    ],
+    logolinks: [
+      PPTMarathiGAN,
     ]
   }
 ];
