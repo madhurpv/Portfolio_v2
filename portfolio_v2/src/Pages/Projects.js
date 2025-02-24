@@ -17,6 +17,7 @@ import ProjectAssemblyImg from "../components/assets/Projects/Images/ProjectAsse
 import ProjectDigitalTwinImg from "../components/assets/Projects/Images/ProjectDigitalTwin.png"
 import ProjectMarathiGANImg from "../components/assets/Projects/Images/ProjectMarathiGAN.png"
 import ProjectSimpleVideoEditorImg from "../components/assets/Projects/Images/ProjectSimpleVideoEditor.png"
+import ProjectFederatedLearning from "../components/assets/Projects/Images/ProjectFederatedLearning.png"
 
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
@@ -25,6 +26,7 @@ import PPTGaleShapely from "../components/assets/Projects/Docs/PPTGaleShapely.pd
 import PPTAssembly from "../components/assets/Projects/Docs/PPTAssembly.pdf"
 import PPTDigitalTwin from "../components/assets/Projects/Docs/PPTDigitalTwin.pdf"
 import PPTMarathiGAN from "../components/assets/Projects/Docs/PPTMarathiGAN.pdf"
+import PPTFederatedLearning from "../components/assets/Projects/Docs/PPTFederatedLearning.pdf"
 
 
 const cardsData = [
@@ -69,6 +71,19 @@ const cardsData = [
     logolinks: [
       "https://youtu.be/ZCvuZgZxnwco",
       "https://github.com/madhurpv/Quick_Video_Editor"
+    ]
+  },
+  {
+    image: ProjectFederatedLearning,
+    title: ' Demonstration and Implementation of Federated Learning',
+    blogtype: 'Deep Learning',
+    description: 'Simulated and Implemented Federated Learning on an Eye Glaucoma image dataset. Used three methods for aggregation -  Simple Average, Weighted Average and Drift + Penalty Method.',
+    link: '/blog1',
+    logos: [
+      PPT
+    ],
+    logolinks: [
+      PPTFederatedLearning
     ]
   },
   {
