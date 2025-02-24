@@ -35,6 +35,7 @@
   padding: 30px;
   flex: 0 0 60%; /* Set the centre section to 60% of the width */
   overflow-y: auto;
+  scrollbar-width: none;
 }
 
 /* Right Section */

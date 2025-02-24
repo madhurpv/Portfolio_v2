@@ -16,6 +16,7 @@ import ProjectGaleShapelyImg from "../components/assets/Projects/Images/ProjectG
 import ProjectAssemblyImg from "../components/assets/Projects/Images/ProjectAssembly.png"
 import ProjectDigitalTwinImg from "../components/assets/Projects/Images/ProjectDigitalTwin.png"
 import ProjectMarathiGANImg from "../components/assets/Projects/Images/ProjectMarathiGAN.png"
+import ProjectSimpleVideoEditorImg from "../components/assets/Projects/Images/ProjectSimpleVideoEditor.png"
 
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
@@ -27,6 +28,19 @@ import PPTMarathiGAN from "../components/assets/Projects/Docs/PPTMarathiGAN.pdf"
 
 
 const cardsData = [
+  {
+    image: ProjectMarathiGANImg,
+    title: 'Comprehensive Devanagari Digits Dataset',
+    blogtype: 'ML Model, Android Application',
+    description: 'Created GAN and CGAN models for generating synthetic large-scale datasets of Devanagari Digits. Also created an Android application for collecting the initial input images. Won <span className="gradient-yellow-text">First Prize</span> in <a href="https://web.archive.org/web/20241221111324/https://pictinc.org/static/media/Impetus_Winners.73299dd43bda229b3a62.pdf" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2024 in ML domain',
+    link: '/blog1',
+    logos: [
+      PPT,
+    ],
+    logolinks: [
+      PPTMarathiGAN,
+    ]
+  },
   {
     image: ProjectFASTImg,
     title: 'FAST - FAST Attendance System Technology',
@@ -43,8 +57,23 @@ const cardsData = [
     ]
   },
   {
+    image: ProjectSimpleVideoEditorImg,
+    title: 'Quick Video Editor',
+    blogtype: 'Windows Application (Python)',
+    description: 'Created a simple video editor in Python for quick editing of Video files.',
+    link: '/blog1',
+    logos: [
+      YouTubeLogo,
+      GithubLogo
+    ],
+    logolinks: [
+      "https://youtu.be/ZCvuZgZxnwco",
+      "https://github.com/madhurpv/Quick_Video_Editor"
+    ]
+  },
+  {
     image: ProjectMarathiSentimentImg,
-    title: 'Sentiment Analysis of Marathi Texts using Deep Learning Models',
+    title: 'Sentiment Analysis of Marathi Texts using Deep Learning',
     blogtype: 'Deep Learning',
     description: 'Fine-tuned several large models such as BiLSTM and BERT for the Marathi language to predict 3-class sentiments of marathi sentences (Positive, Neutral and Negative).',
     link: '/blog1',
@@ -100,22 +129,11 @@ const cardsData = [
     link: '/blog1',
     logos: [
       PPT,
+      YouTubeLogo
     ],
     logolinks: [
       PPTDigitalTwin,
-    ]
-  },
-  {
-    image: ProjectMarathiGANImg,
-    title: 'Comprehensive Devanagari Digits Dataset',
-    blogtype: 'ML Model, Android Application',
-    description: 'Created GAN and CGAN models for generating synthetic large-scale datasets of Devanagari Digits. Also created an Android application for collecting the initial input images. Won <span className="gradient-yellow-text">First Prize</span> in <a href="https://web.archive.org/web/20241221111324/https://pictinc.org/static/media/Impetus_Winners.73299dd43bda229b3a62.pdf" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2024 in ML domain',
-    link: '/blog1',
-    logos: [
-      PPT,
-    ],
-    logolinks: [
-      PPTMarathiGAN,
+      "https://www.youtube.com/watch?v=geABRkp38ug"
     ]
   }
 ];
@@ -145,7 +163,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="centre">
-        <Title title="Welcome" />
+        <Title title="Projects" />
         <br />
         <p className="noto-sans-300">These are projects</p>
         <CardContainerProjects cards={cardsData} />

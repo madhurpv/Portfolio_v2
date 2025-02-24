@@ -24,6 +24,17 @@
   aspect-ratio: 1; /* Ensure the image container is always square */
 }
 
+.square-card-details-project {
+  width: 100%; /* Ensure image takes up the full width of the parent */
+  height: 100%; /* Ensure image takes up the full height of the parent */
+  object-fit: cover; /* Ensures the image covers the square area without distortion, cropping equally */
+  border-radius: 8px 8px 0 0; /* Optional: keep the top corners rounded */
+  aspect-ratio: 0.9; /* Ensure the image container is always square */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 .square-card-title-project {
   margin: 10px 0px 0px;
   font-size: 1.6em;
@@ -50,6 +61,8 @@
 .square-card-logos-project {
   display: flex;
   justify-content: flex-start;
+  vertical-align: bottom;
+  justify-self: end;
   margin-top: 1px;
   padding: 0 10px;
 }
@@ -67,6 +80,13 @@
 
 .square-card-logo-project:hover {
   transform: scale(1.1); /* Slightly enlarges the logo when hovered */
+}
+
+.bottom_aligner {
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 0px;
 }
 
 
