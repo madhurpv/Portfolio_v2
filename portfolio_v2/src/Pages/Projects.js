@@ -18,6 +18,7 @@ import ProjectDigitalTwinImg from "../components/assets/Projects/Images/ProjectD
 import ProjectMarathiGANImg from "../components/assets/Projects/Images/ProjectMarathiGAN.png"
 import ProjectSimpleVideoEditorImg from "../components/assets/Projects/Images/ProjectSimpleVideoEditor.png"
 import ProjectFederatedLearning from "../components/assets/Projects/Images/ProjectFederatedLearning.png"
+import ProjectCompilerR from "../components/assets/Projects/Images/ProjectCompilerR.png"
 
 
 import PPTFAST from "../components/assets/Projects/Docs/PPTFAST.pdf"
@@ -27,6 +28,7 @@ import PPTAssembly from "../components/assets/Projects/Docs/PPTAssembly.pdf"
 import PPTDigitalTwin from "../components/assets/Projects/Docs/PPTDigitalTwin.pdf"
 import PPTMarathiGAN from "../components/assets/Projects/Docs/PPTMarathiGAN.pdf"
 import PPTFederatedLearning from "../components/assets/Projects/Docs/PPTFederatedLearning.pdf"
+import PPTCompilerR from "../components/assets/Projects/Docs/PPTCompilerR.pdf"
 
 
 const cardsData = [
@@ -34,7 +36,7 @@ const cardsData = [
     image: ProjectMarathiGANImg,
     title: 'Comprehensive Devanagari Digits Dataset',
     blogtype: 'ML Model, Android Application',
-    description: 'Created GAN and CGAN models for generating synthetic large-scale datasets of Devanagari Digits. Also created an Android application for collecting the initial input images. Won <span className="gradient-yellow-text">First Prize</span> in <a href="https://web.archive.org/web/20241221111324/https://pictinc.org/static/media/Impetus_Winners.73299dd43bda229b3a62.pdf" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2024 in ML domain',
+    description: 'Created GAN and CGAN models for generating synthetic large-scale datasets of Devanagari Digits. Also created an Android application for collecting the initial input images. Won <span className="gradient-yellow-text"><b>First Prize</b></span> in <a href="https://web.archive.org/web/20241221111324/https://pictinc.org/static/media/Impetus_Winners.73299dd43bda229b3a62.pdf" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2024 in ML domain',
     link: '/blog1',
     logos: [
       PPT,
@@ -47,7 +49,7 @@ const cardsData = [
     image: ProjectFASTImg,
     title: 'FAST - FAST Attendance System Technology',
     blogtype: 'Android Application (Java), Windows Application (Python)',
-    description: 'Created a proxy-proof attendance-taking system for colleges and professional conferences and seminars, based on the technology of Dynamic QR Codes. Won <span className="gradient-yellow-text">Second Prize</span> in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
+    description: 'Created a proxy-proof attendance-taking system for colleges and professional conferences and seminars, based on the technology of Dynamic QR Codes. Won <span className="gradient-yellow-text"><b>Second Prize</b></span> in <a href="https://pictinc.org/" className="cool-link" target="_blank" rel="noopener noreferrer">Impetus</a> 2023 in Applications domain',
     link: '/blog1',
     logos: [
       PPT, 
@@ -62,7 +64,7 @@ const cardsData = [
     image: ProjectSimpleVideoEditorImg,
     title: 'Quick Video Editor',
     blogtype: 'Windows Application (Python)',
-    description: 'Created a simple video editor in Python for quick editing of Video files.',
+    description: 'A simple video editor in Python for fast editing of videos, along with scaling, trimming, cropping, applying filters like brightness and contrast and also applying a watermark over the video.',
     link: '/blog1',
     logos: [
       YouTubeLogo,
@@ -99,7 +101,7 @@ const cardsData = [
     image: ProjectBlockchainImg,
     title: 'Peti-Chain - Blockchain based petition filing system',
     blogtype: 'Blockchain network and Website',
-    description: 'Created a Smart-Contracts based blockchain application for Judicial Petition-filing, on Ethereum Network',
+    description: 'A Smart-Contracts based blockchain application for Judicial Petition-filing, on Ethereum Network',
     link: '/blog1',
     logos: [
       PPT,
@@ -124,6 +126,21 @@ const cardsData = [
     ]
   },
   {
+    image: ProjectCompilerR,
+    title: 'Compiler for Subset of R langauge',
+    blogtype: 'Compiler Design - FLEX, Bison, C',
+    description: 'A partial compiler for a subset of the R language. Implemented the phases of Lexical, Syntax and Semantic Analysis',
+    link: '/blog1',
+    logos: [
+      PPT,
+      GithubLogo
+    ],
+    logolinks: [
+      PPTCompilerR,
+      "https://github.com/Sarthak9504/Simple-R-Compiler"
+    ]
+  },
+  {
     image: ProjectAssemblyImg,
     title: 'KNN algorithm in Assembly Language (x86-64)',
     blogtype: 'x86-64',
@@ -131,9 +148,11 @@ const cardsData = [
     link: '/blog1',
     logos: [
       PPT,
+      GithubLogo
     ],
     logolinks: [
       PPTAssembly,
+      "https://github.com/Sarthak9504/KNN_implementation_in_x86-64"
     ]
   },
   {
