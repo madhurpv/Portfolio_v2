@@ -12,12 +12,17 @@ import Navbar from './components/Navbar';
 
 import Blog1 from './Pages/Blog/Blog1';
 
+import Photography from './Pages/Photography';
+import GalleryPageBirds from './Pages/Hobbies/GalleryPageBirds';
+import GalleryPageInsects from './Pages/Hobbies/GalleryPageInsects';
+
 
 import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 import React, {Component} from 'react';
 import './App.css';
 import Page404 from './Pages/Page404';
+import GalleryPageNature from './Pages/Hobbies/GalleryPageNature';
 
 //IMPPPPPP: If PDF Not seen on Resume.js and error like versions are different, install : npm i --save --save-exact pdfjs-dist@4.4.168
 
@@ -43,6 +48,10 @@ class App extends Component {
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/blog1" element={<Blog1 />} />
+                <Route path="/hobbies/photography" element={<Photography />} />
+                <Route path="/hobbies/photography/birds" element={<GalleryPageBirds />} />
+                <Route path="/hobbies/photography/insects" element={<GalleryPageInsects />} />
+                <Route path="/hobbies/photography/nature" element={<GalleryPageNature />} />
                 <Route path="*" element={<Page404 />} />
             </Routes>
             <Right />

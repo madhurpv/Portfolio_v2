@@ -1,0 +1,87 @@
+{
+  "birds": [
+    {
+      "path": "/photos/birds/10052025_DSC_4090_Lite.jpg",
+      "title": "The king of the skies!",
+      "description": "A majestic black kite soaring in the free sky",
+      "date": "10-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/11052025_DSC_4674_Lite.jpg",
+      "title": "Colour Bonanza",
+      "description": "A Purple-rumped sunbird enjoying sweet nectar",
+      "date": "11-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/18032025_DSC_1314_Lite.jpg",
+      "title": "Golden flight",
+      "description": "A Purple sunbird female enjoying the golden mohor",
+      "date": "18-March-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/16032025_DSC_0433_Lite.jpg",
+      "title": "Portrait of a singer",
+      "description": "This is the Asian Koel, a bird known for the sweet song it sings!",
+      "date": "16-March-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/23032025_DSC_4177_1_Lite.jpg",
+      "title": "Drongo-focus",
+      "description": "This is the Ashy Drongo, a bird which migrates to Pune in the winters",
+      "date": "23-March-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/23032025_DSC_4177_1_Lite.jpg",
+      "title": "Solitude swimmer",
+      "description": "Little Grebe swimming alone in the dark waters",
+      "date": "23-March-2025",
+      "location": "Pune, Maharashtra"
+    }
+  ],
+  "nature": [
+    {
+      "path": "/photos/nature/05042025_DSC_6492_4_Lite.jpg",
+      "title": "Squirrel in Nature",
+      "description": "Captured on the scenic hill-station of Matheran",
+      "date": "05-April-2025",
+      "location": "Matheran, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/404_Img.png",
+      "title": "Hummingbird in Flight",
+      "description": "Fast shutter speed to freeze the wings",
+      "date": "2023-07-22",
+      "location": "Backyard Garden"
+    }
+  ],
+  "insects": [
+    {
+      "path": "/photos/insects/1.jpg",
+      "title": "Butterfly on Flower",
+      "description": "Macro shot of a monarch butterfly",
+      "date": "2023-06-10",
+      "location": "Local Park"
+    },
+    {
+      "path": "/photos/insects/2.jpg",
+      "title": "Dragonfly",
+      "description": "Shot with 100mm macro lens",
+      "date": "2023-08-05",
+      "location": "Pond Area"
+    }
+  ],
+  "landscapes": [
+    {
+      "path": "/photos/landscapes/1.jpg",
+      "title": "Mountain Sunset",
+      "description": "Golden hour in the Alps",
+      "date": "2023-09-12",
+      "location": "Switzerland"
+    }
+  ]
+}

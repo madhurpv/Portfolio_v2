@@ -1,0 +1,146 @@
+.photo-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.photo-popup-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(201, 201, 201);
+  z-index: 10;
+}
+
+.photo-container {
+  display: flex;
+  max-height: 80vh;
+}
+
+.popup-photo {
+  max-height: 80vh;
+  max-width: 70vw;
+  object-fit: contain;
+}
+
+.photo-info {
+  width: 300px;
+  padding: 2rem;
+  background: white;
+  overflow-y: auto;
+}
+
+.photo-info h2 {
+  margin-top: 0;
+}
+
+.photo-meta {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.photo-meta span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.toggle-info-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .photo-container {
+    flex-direction: column;
+  }
+  
+  .popup-photo {
+    max-width: 100%;
+  }
+  
+  .photo-info {
+    width: auto;
+    max-height: 200px;
+  }
+}
+
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
+}
+
+.photo-popup-content:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+.photography-section-card {
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  aspect-ratio: 1/1;
+}
+
+.section-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.section-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.photography-section-card:hover .section-image {
+  transform: scale(1.05);
+}
+
+.section-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  padding: 1rem;
+  color: white;
+}
+
+.section-overlay h3 {
+  margin: 0;
+}

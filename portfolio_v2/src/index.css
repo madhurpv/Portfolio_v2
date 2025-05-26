@@ -17,7 +17,7 @@
 .left {
   background-color: #3b444a;
   padding: 20px;
-  flex: 0 0 20%; /* Set the left section to 20% of the width */
+  flex: 0 0 10%; /* Set the left section to 20% of the width */
   position: sticky;
   top: 60px; /* Adjust to the navbar height */
   left: 0;
@@ -33,7 +33,7 @@
 .centre {
   background-color: #1b1b1b;
   padding: 30px;
-  flex: 0 0 60%; /* Set the centre section to 60% of the width */
+  flex: 0 0 80%; /* Set the centre section to 60% of the width */
   overflow-y: auto;
   scrollbar-width: none;
 }
@@ -42,7 +42,7 @@
 .right {
   background-color: #3b444a;
   padding: 20px;
-  flex: 0 0 20%; /* Set the right section to 20% of the width */
+  flex: 0 0 10%; /* Set the right section to 20% of the width */
   position: sticky;
   top: 60px; /* Adjust to the navbar height */
   height: 100vh; /* Full viewport height */
