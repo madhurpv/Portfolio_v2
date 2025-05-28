@@ -36,10 +36,140 @@
       "location": "Pune, Maharashtra"
     },
     {
-      "path": "/photos/birds/23032025_DSC_4177_1_Lite.jpg",
+      "path": "/photos/birds/23032025_DSC_3226_3_Lite.JPG",
       "title": "Solitude swimmer",
       "description": "Little Grebe swimming alone in the dark waters",
       "date": "23-March-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/10052025_DSC_3929_Lite.jpg",
+      "title": "The Majestic Kite",
+      "description": "A black kite soaring on wind thermals",
+      "date": "10-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/10052025_DSC_4048_2_Lite.JPG",
+      "title": "Learning to Fly!",
+      "description": "A merged shot of a young Coppersmith Barbet learning to fly!",
+      "date": "10-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/04022024_DSCN8219_Lite.jpg",
+      "title": "The roar of the king!",
+      "description": "A Crested-serpent Eagle's roar!",
+      "date": "04-February-2024",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/16032025_DSC_0952_Lite.jpg",
+      "title": "Cute-eye!",
+      "description": "A cute white-eye!",
+      "date": "16-March-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/15122023_DSCN5953_Lite.jpg",
+      "title": "Blue-and-green!!",
+      "description": "A Verditer flycatcher female sitting patiently on a tree!",
+      "date": "15-December-2023",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/17122024_DSCN5259_Lite.jpg",
+      "title": "Oriental Honey Buzzard",
+      "description": "An Oriental Honey Buzzard sitting on the top of a tree",
+      "date": "17-December-2024",
+      "location": "Solapur, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/21122023_DSCN6349_4_Lite.jpg",
+      "title": "Contemplating life choices",
+      "description": "This is a Pied Kingfisher - a very unique kingfisher with only black and white colours. It fishes by hovering at a single place and swiftly diving in the water to catch!",
+      "date": "21-December-2023",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/25082020_DSCN2188-1_Lite.jpg",
+      "title": "Fooood!",
+      "description": "A Hariyal gazing at the delicious fruits of the Banyan tree!",
+      "date": "25-August-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/DSCN1767_Lite.jpg",
+      "title": "Surprize!",
+      "description": "A swallow looking in surprize!",
+      "date": "01-May-2022",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/birds/DSCN8251 (2)_Lite.jpg",
+      "title": "Announcing my presence!",
+      "description": "Brahminy Starling singing atop a tree!",
+      "date": "28-February-2021",
+      "location": "Pune, Maharashtra"
+    }
+  ],
+  "astrophotography": [
+    {
+      "path": "/photos/astrophotography/12042025_DSC_8133_average_2_Lite.jpg",
+      "title": "Orion Nebula",
+      "description": "Merge of 30 images - total exposure time of 23 sec\nNikon Z50ii + Nikkor Z 180-600mm at 600mm\nISO-6400, f/6.3, 0.77sec per photo\nBortle 9 skies",
+      "date": "12-April-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/astrophotography/28042025_DSC_1116_Stack_2_2_Lite.jpg",
+      "title": "The Milky Way",
+      "description": "Merge of top 80% of 799 images - total exposure time of 26.6 minutes\nNikon Z50ii + Nikkor Z 40mm at 40 mm\nISO-25600, f/2, 2sec per photo\nBortle 9 skies",
+      "date": "28-April-2025",
+      "location": "Pune, Maharashtra"
+    }
+  ],
+  "insects": [
+    {
+      "path": "/photos/insects/23072020_DSCN9197-1_Lite.jpg",
+      "title": "Hello!",
+      "description": "A bee saying hello!",
+      "date": "23-July-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/insects/13042020_DSCN4552-1_Lite.jpg",
+      "title": "Butterfly",
+      "description": "A butterfly on red flowers!",
+      "date": "13-April-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/insects/12082020_DSCN0663_Lite.jpg",
+      "title": "Compound-Eye",
+      "description": "A compound-eye of a dragonfly!",
+      "date": "12-August-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/insects/06082020_DSCN0156_Lite.jpg",
+      "title": "Mosquito",
+      "description": "A closeup of a mosquito!",
+      "date": "06-August-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/insects/05082020_DSCN0092_Lite.jpg",
+      "title": "Pollen Bath",
+      "description": "A honey bee bathing in pollen grains!",
+      "date": "06-August-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/insects/16092020_DSCN4804-1_Lite.jpg",
+      "title": "Butterfly!",
+      "description": "A front-view of a butterfly!",
+      "date": "16-September-2020",
       "location": "Pune, Maharashtra"
     }
   ],
@@ -52,36 +182,132 @@
       "location": "Matheran, Maharashtra"
     },
     {
-      "path": "/photos/birds/404_Img.png",
-      "title": "Hummingbird in Flight",
-      "description": "Fast shutter speed to freeze the wings",
-      "date": "2023-07-22",
-      "location": "Backyard Garden"
-    }
-  ],
-  "insects": [
-    {
-      "path": "/photos/insects/1.jpg",
-      "title": "Butterfly on Flower",
-      "description": "Macro shot of a monarch butterfly",
-      "date": "2023-06-10",
-      "location": "Local Park"
+      "path": "/photos/nature/10102020_DSCN5807-2_Lite.jpg",
+      "title": "Red Stigma",
+      "description": "Stigma of the Red Hibiscus flower",
+      "date": "10-October-2020",
+      "location": "Pune, Maharashtra"
     },
     {
-      "path": "/photos/insects/2.jpg",
-      "title": "Dragonfly",
-      "description": "Shot with 100mm macro lens",
-      "date": "2023-08-05",
-      "location": "Pond Area"
+      "path": "/photos/nature/12112020_DSCN6577-1_Lite.jpg",
+      "title": "Yellow Flowers!",
+      "description": "A natural bouquet of yellow flowers",
+      "date": "12-April-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/nature/DSCN2480 (2)_Lite.jpg",
+      "title": "Show-off",
+      "description": "Oriental Garden Lizard male showing off his breeding colours",
+      "date": "13-October-2020",
+      "location": "Vellore, Tamil Nadu"
+    },
+    {
+      "path": "/photos/nature/16082020_DSCN1253-1_Lite.jpg",
+      "title": "Lajalu",
+      "description": "This is the flower of Lajalu plant, which closes its leaves upon touch",
+      "date": "16-August-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/nature/16092020_DSCN4829-1_Lite.jpg",
+      "title": "Beauty in the night",
+      "description": "A stunning rose flower at night",
+      "date": "16-September-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/nature/28092020_DSCN5614-1_Lite.jpg",
+      "title": "Tiny Lemon",
+      "description": "Flower of the lemon tree",
+      "date": "28-September-2020",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/nature/DSCN2594_Lite.jpg",
+      "title": "Hello!",
+      "description": "An Oriental Garden Lizard saying hello in its own style",
+      "date": "19-October-2020",
+      "location": "Pune, Maharashtra"
     }
   ],
-  "landscapes": [
+  "landscapes and clouds": [
     {
-      "path": "/photos/landscapes/1.jpg",
-      "title": "Mountain Sunset",
-      "description": "Golden hour in the Alps",
-      "date": "2023-09-12",
-      "location": "Switzerland"
+      "path": "/photos/landscapes/05122024_DSCN4370_Lite.jpg",
+      "title": "Rising from the clouds",
+      "description": "The Sun rising up bravely from the clouds!",
+      "date": "05-December-2024",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/09052025_DSC_3362_stitch_2_Lite.jpg",
+      "title": "Cloud Widescape",
+      "description": "Panorama stitch of clouds",
+      "date": "09-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/11052025_DSC_5122_average_Lite.jpg",
+      "title": "Just after Sunset",
+      "description": "The sky just after sunset",
+      "date": "11-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/11052025_DSC_5043_Lite.jpg",
+      "title": "Golden Lining",
+      "description": "Every Cloud has a Silver Lining - but this one has Golden!",
+      "date": "15-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/11052025_DSC_4945_average_Lite.jpg",
+      "title": "The Sun is out!",
+      "description": "The sun is out after hiding behind the clouds for several days",
+      "date": "11-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/12052025_DSC_6035_average_Lite.jpg",
+      "title": "The colours and the rain",
+      "description": "raining far away, with the sky yellow and blue",
+      "date": "12-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/10052025_DSC_4213_2_Lite.jpg",
+      "title": "Cloudy Detail",
+      "description": "A highly detailed cloud",
+      "date": "10-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/09052025_DSC_3382_Lite.jpg",
+      "title": "Myriad",
+      "description": "Clouds and the sky",
+      "date": "09-May-2025",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/DSCN3118_3_Lite.jpg",
+      "title": "Still standing strong!",
+      "description": "The tree is alone, yet it is still standing strong",
+      "date": "25-December-2022",
+      "location": "Kumbhargaon, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/26092020_DSCN5458_stitch_Lite.jpg",
+      "title": "Holi in the sky!",
+      "description": "Enjoy the colours sprayed up in the sky",
+      "date": "26-September-2020",
+      "location": "Kumbhargaon, Maharashtra"
+    },
+    {
+      "path": "/photos/landscapes/11122023_DSCN5765_Lite.jpg",
+      "title": "The water and the sunset!",
+      "description": "Enjoy the sunset by the water",
+      "date": "11-December-2023",
+      "location": "Kumbhargaon, Maharashtra"
     }
   ]
 }

@@ -19,12 +19,12 @@ class Hobbies extends Component {
           image: '/photos/hobbies/photography.jpg'
         },
         // Add other hobbies here
-        {
+        /*{
           id: 'painting',
           title: 'Painting',
           description: 'My acrylic and watercolor artworks',
           image: '/hobbies/painting.jpg'
-        }
+        }*/
       ]
     };
   }
