@@ -4,13 +4,33 @@ import Title from '../components/Title';
 import Centre from '../components/Centre';
 import CardContainerBlog from '../components/CardContainerBlog';
 
+
+import Blog2Img from "../components/assets/Blogs/Images/Blog2.jpg"
+import Blog3Img from "../components/assets/Blogs/Images/Blog3.jpg"
+
+
+
 const cardsData = [
   {
     image: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg',
-    title: 'Card 1',
+    title: 'Blog 1',
     blogtype: 'Travel',
-    description: 'This is the first card description.',
+    description: 'This is the first blog. Temporary blog.',
     link: '/#/blog1'
+  },
+  {
+    image: Blog2Img,
+    title: 'Calculate how far that raptor is!',
+    blogtype: 'Birds',
+    description: 'Calculate how far a raptor is soaring from you by using Bird Altitude Estimator',
+    link: '/#/blog2'
+  },
+  {
+    image: Blog3Img,
+    title: 'Hobby of Hobby!',
+    blogtype: 'Birds',
+    description: "Celebrating the cool 'Hobby' which has gifted all Punekars its presence time and again!",
+    link: '/#/blog3'
   }
 ];
 

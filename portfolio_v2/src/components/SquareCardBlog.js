@@ -6,7 +6,7 @@ class SquareCardBlog extends Component {
     const { image, title, description, blogtype, typecolour } = this.props;
 
     return (
-      <div className="square-card">
+      <div className="square-card" style={{maxWidth: "300px"}}>
         <img src={image} alt={title} className="square-card-image" />
         <h3 className="square-card-title">{title}</h3>
         <h3 className="square-card-type" style={{color: typecolour}}>{blogtype}</h3>
