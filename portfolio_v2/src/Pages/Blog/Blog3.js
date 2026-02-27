@@ -5,7 +5,7 @@ import "../../Pages/Styling/About.css"
 
 import Blog3Img from "../../components/assets/Blogs/Images/Blog3.jpg"
 
-class Blog2 extends Component {
+class Blog3 extends Component {
   render() {
     return (
       <div className="centre">
@@ -51,4 +51,4 @@ class Blog2 extends Component {
   }
 }
 
-export default Blog2;
+export default Blog3;

@@ -8,6 +8,7 @@ import CardContainerBlog from '../components/CardContainerBlog';
 import Blog2Img from "../components/assets/Blogs/Images/Blog2.jpg"
 import Blog3Img from "../components/assets/Blogs/Images/Blog3.jpg"
 import Blog4Img from "../components/assets/Blogs/Images/Blog4.jpg"
+import Blog5Img from "../components/assets/Blogs/Images/Blog5.jpg"
 
 
 
@@ -39,6 +40,13 @@ const cardsData = [
     blogtype: 'Birds',
     description: "The story of Kauaʻi ʻōʻō",
     link: '/#/blog4'
+  },
+  {
+    image: Blog5Img,
+    title: 'Common Myna or Jungle Myna?',
+    blogtype: 'Birds',
+    description: "Learn to identify common and jungle Myna",
+    link: '/#/blog5'
   }
 ];
 
@@ -70,7 +78,8 @@ class Blog extends Component {
     return (
       <div className="centre">
         <Title title="Blog" />
-        <p>This is My Blog</p>
+        <p></p>
+        <br />
         <CardContainerBlog cards={cardsData} />
       </div>
     );

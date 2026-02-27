@@ -6,6 +6,8 @@ class CardContainerBlog extends Component {
   render() {
     const { cards } = this.props;
 
+    cards.reverse()
+
     return (
       <div className="card-container">
         {cards.map((card, index) => (
