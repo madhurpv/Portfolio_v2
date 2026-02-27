@@ -7,6 +7,7 @@ import CardContainerBlog from '../components/CardContainerBlog';
 
 import Blog2Img from "../components/assets/Blogs/Images/Blog2.jpg"
 import Blog3Img from "../components/assets/Blogs/Images/Blog3.jpg"
+import Blog4Img from "../components/assets/Blogs/Images/Blog4.jpg"
 
 
 
@@ -31,6 +32,13 @@ const cardsData = [
     blogtype: 'Birds',
     description: "Celebrating the cool 'Hobby' which has gifted all Punekars its presence time and again!",
     link: '/#/blog3'
+  },
+  {
+    image: Blog4Img,
+    title: 'Kauaʻi ʻōʻō and the great John Sincock!',
+    blogtype: 'Birds',
+    description: "The story of Kauaʻi ʻōʻō",
+    link: '/#/blog4'
   }
 ];
 

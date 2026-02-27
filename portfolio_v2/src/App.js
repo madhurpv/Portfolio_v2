@@ -13,6 +13,7 @@ import Navbar from './components/Navbar';
 import Blog1 from './Pages/Blog/Blog1';
 import Blog2 from './Pages/Blog/Blog2';
 import Blog3 from './Pages/Blog/Blog3';
+import Blog4 from './Pages/Blog/Blog4';
 
 import Photography from './Pages/Photography';
 import GalleryPageBirds from './Pages/Hobbies/GalleryPageBirds';
@@ -54,6 +55,7 @@ class App extends Component {
                 <Route path="/blog1" element={<Blog1 />} />
                 <Route path="/blog2" element={<Blog2 />} />
                 <Route path="/blog3" element={<Blog3 />} />
+                <Route path="/blog4" element={<Blog4 />} />
                 <Route path="/hobbies/photography" element={<Photography />} />
                 <Route path="/hobbies/photography/birds" element={<GalleryPageBirds />} />
                 <Route path="/hobbies/photography/insects" element={<GalleryPageInsects />} />
